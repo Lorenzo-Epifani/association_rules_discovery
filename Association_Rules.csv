@@ -1,13 +1,397 @@
 if_a,then_b,confidence
+{'Cake'},"{'Coffee', 'Bread'}",0.1581151832460733
+{'Coffee'},"{'Cake', 'Bread'}",0.03673072245195816
+{'Bread'},"{'Cake', 'Coffee'}",0.05241235682054842
+"{'Cake', 'Coffee'}",{'Bread'},0.2710951526032316
+"{'Cake', 'Bread'}",{'Coffee'},0.5571955719557196
+"{'Coffee', 'Bread'}",{'Cake'},0.1396854764107308
+{'Cake'},"{'Tea', 'Bread'}",0.0774869109947644
+{'Tea'},"{'Cake', 'Bread'}",0.056618209640397855
+{'Bread'},"{'Cake', 'Tea'}",0.02568552585907671
+"{'Cake', 'Tea'}",{'Bread'},0.28793774319066145
+"{'Cake', 'Bread'}",{'Tea'},0.2730627306273063
+"{'Tea', 'Bread'}",{'Cake'},0.20555555555555555
+{'Muffin'},"{'Coffee', 'Bread'}",0.1392757660167131
+{'Coffee'},"{'Muffin', 'Bread'}",0.012162490878131841
+{'Bread'},"{'Muffin', 'Coffee'}",0.017355085039916694
+"{'Muffin', 'Coffee'}",{'Bread'},0.24752475247524752
+"{'Muffin', 'Bread'}",{'Coffee'},0.4807692307692308
+"{'Coffee', 'Bread'}",{'Muffin'},0.04625346901017576
+{'Hot chocolate'},"{'Coffee', 'Bread'}",0.1726078799249531
+{'Coffee'},"{'Hot chocolate', 'Bread'}",0.022378983215762586
+{'Bread'},"{'Hot chocolate', 'Coffee'}",0.03193335647344672
+"{'Hot chocolate', 'Coffee'}",{'Bread'},0.2920634920634921
+"{'Hot chocolate', 'Bread'}",{'Coffee'},0.5679012345679012
+"{'Coffee', 'Bread'}",{'Hot chocolate'},0.0851063829787234
+{'Brownie'},"{'Coffee', 'Bread'}",0.15591397849462366
+{'Coffee'},"{'Brownie', 'Bread'}",0.014108489418632936
+{'Bread'},"{'Brownie', 'Coffee'}",0.020131898646303367
+"{'Brownie', 'Coffee'}",{'Bread'},0.2871287128712871
+"{'Brownie', 'Bread'}",{'Coffee'},0.48333333333333334
+"{'Coffee', 'Bread'}",{'Brownie'},0.05365402405180388
+{'Tea'},"{'Coffee', 'Bread'}",0.12547819433817903
+{'Coffee'},"{'Tea', 'Bread'}",0.03989297008027244
+{'Bread'},"{'Coffee', 'Tea'}",0.05692467893092676
+"{'Coffee', 'Tea'}",{'Bread'},0.2747068676716918
+"{'Tea', 'Bread'}",{'Coffee'},0.45555555555555555
+"{'Coffee', 'Bread'}",{'Tea'},0.1517113783533765
+{'Cookies'},"{'Coffee', 'Bread'}",0.1450980392156863
+{'Coffee'},"{'Cookies', 'Bread'}",0.018000486499635125
+{'Bread'},"{'Coffee', 'Cookies'}",0.02568552585907671
+"{'Coffee', 'Cookies'}",{'Bread'},0.2569444444444444
+"{'Cookies', 'Bread'}",{'Coffee'},0.45962732919254656
+"{'Coffee', 'Bread'}",{'Cookies'},0.06845513413506013
+{'Toast'},"{'Coffee', 'Bread'}",0.21241830065359477
+{'Coffee'},"{'Toast', 'Bread'}",0.015811238141571395
+{'Bread'},"{'Toast', 'Coffee'}",0.022561610551891705
+"{'Toast', 'Coffee'}",{'Bread'},0.2838427947598253
+"{'Toast', 'Bread'}",{'Coffee'},0.6372549019607843
+"{'Coffee', 'Bread'}",{'Toast'},0.060129509713228495
+{'Alfajores'},"{'Coffee', 'Bread'}",0.18584070796460178
+{'Coffee'},"{'Alfajores', 'Bread'}",0.01532473850644612
+{'Bread'},"{'Coffee', 'Alfajores'}",0.021867407150295035
+"{'Coffee', 'Alfajores'}",{'Bread'},0.3103448275862069
+"{'Alfajores', 'Bread'}",{'Coffee'},0.5338983050847458
+"{'Coffee', 'Bread'}",{'Alfajores'},0.058279370952821465
+{'Coffee'},"{'Bread', 'Sandwich'}",0.0231087326684505
+{'Sandwich'},"{'Coffee', 'Bread'}",0.14570552147239263
+{'Bread'},"{'Coffee', 'Sandwich'}",0.032974661575841724
+"{'Coffee', 'Sandwich'}",{'Bread'},0.24173027989821882
+"{'Coffee', 'Bread'}",{'Sandwich'},0.08788159111933395
+"{'Bread', 'Sandwich'}",{'Coffee'},0.5
+{'Coffee'},"{'Bread', 'Juice'}",0.013621989783507663
+{'Juice'},"{'Coffee', 'Bread'}",0.15555555555555556
+{'Bread'},"{'Coffee', 'Juice'}",0.0194376952447067
+"{'Coffee', 'Juice'}",{'Bread'},0.25225225225225223
+"{'Coffee', 'Bread'}",{'Juice'},0.05180388529139685
+"{'Bread', 'Juice'}",{'Coffee'},0.5714285714285714
 {'Pastry'},"{'Coffee', 'Bread'}",0.20780856423173805
 {'Coffee'},"{'Pastry', 'Bread'}",0.04013621989783508
 {'Bread'},"{'Pastry', 'Coffee'}",0.0572717806317251
 "{'Pastry', 'Coffee'}",{'Bread'},0.34232365145228216
 "{'Pastry', 'Bread'}",{'Coffee'},0.5188679245283019
 "{'Coffee', 'Bread'}",{'Pastry'},0.15263644773358
+{'Medialuna'},"{'Coffee', 'Bread'}",0.21441124780316345
+{'Coffee'},"{'Medialuna', 'Bread'}",0.029676477742641694
+{'Bread'},"{'Medialuna', 'Coffee'}",0.04234640749739674
+"{'Medialuna', 'Coffee'}",{'Bread'},0.34173669467787116
+"{'Medialuna', 'Bread'}",{'Coffee'},0.5700934579439252
+"{'Coffee', 'Bread'}",{'Medialuna'},0.11285846438482887
+{'Coffee'},"{'Soup', 'Bread'}",0.010946241790318657
+{'Soup'},"{'Coffee', 'Bread'}",0.14516129032258066
+{'Bread'},"{'Coffee', 'Soup'}",0.015619576535925026
+"{'Coffee', 'Soup'}",{'Bread'},0.26627218934911245
+"{'Coffee', 'Bread'}",{'Soup'},0.041628122109158186
+"{'Soup', 'Bread'}",{'Coffee'},0.5625
+{'Scone'},"{'Coffee', 'Bread'}",0.20253164556962025
+{'Coffee'},"{'Scone', 'Bread'}",0.015567988324008757
+{'Bread'},"{'Scone', 'Coffee'}",0.02221450885109337
+"{'Scone', 'Coffee'}",{'Bread'},0.3422459893048128
+"{'Scone', 'Bread'}",{'Coffee'},0.5565217391304348
+"{'Coffee', 'Bread'}",{'Scone'},0.05920444033302498
 {'Coffee'},"{'Tea', 'Bread'}",0.03989297008027244
 {'Tea'},"{'Coffee', 'Bread'}",0.12547819433817903
-{'Bread'},"{'Coffee', 'Tea'}",0.05692467893092676
-"{'Coffee', 'Tea'}",{'Bread'},0.2747068676716918
+{'Bread'},"{'Tea', 'Coffee'}",0.05692467893092676
+"{'Tea', 'Coffee'}",{'Bread'},0.2747068676716918
 "{'Coffee', 'Bread'}",{'Tea'},0.1517113783533765
 "{'Tea', 'Bread'}",{'Coffee'},0.45555555555555555
+{'Tea'},"{'Bread', 'Sandwich'}",0.032134659525631215
+{'Sandwich'},"{'Tea', 'Bread'}",0.06441717791411043
+{'Bread'},"{'Tea', 'Sandwich'}",0.014578271433530025
+"{'Tea', 'Sandwich'}",{'Bread'},0.267515923566879
+"{'Tea', 'Bread'}",{'Sandwich'},0.11666666666666667
+"{'Bread', 'Sandwich'}",{'Tea'},0.22105263157894736
+{'Coffee'},"{'Cookies', 'Bread'}",0.018000486499635125
+{'Cookies'},"{'Coffee', 'Bread'}",0.1450980392156863
+{'Bread'},"{'Cookies', 'Coffee'}",0.02568552585907671
+"{'Cookies', 'Coffee'}",{'Bread'},0.2569444444444444
+"{'Coffee', 'Bread'}",{'Cookies'},0.06845513413506013
+"{'Cookies', 'Bread'}",{'Coffee'},0.45962732919254656
+{'Coffee'},"{'Alfajores', 'Bread'}",0.01532473850644612
+{'Alfajores'},"{'Coffee', 'Bread'}",0.18584070796460178
+{'Bread'},"{'Alfajores', 'Coffee'}",0.021867407150295035
+"{'Alfajores', 'Coffee'}",{'Bread'},0.3103448275862069
+"{'Coffee', 'Bread'}",{'Alfajores'},0.058279370952821465
+"{'Alfajores', 'Bread'}",{'Coffee'},0.5338983050847458
+{'Pastry'},"{'Medialuna', 'Bread'}",0.05037783375314862
+{'Medialuna'},"{'Pastry', 'Bread'}",0.070298769771529
+{'Bread'},"{'Pastry', 'Medialuna'}",0.013884068031933356
+"{'Pastry', 'Medialuna'}",{'Bread'},0.4
+"{'Pastry', 'Bread'}",{'Medialuna'},0.12578616352201258
+"{'Medialuna', 'Bread'}",{'Pastry'},0.18691588785046728
+{'Cake'},"{'Hot chocolate', 'Coffee'}",0.08586387434554973
+{'Hot chocolate'},"{'Cake', 'Coffee'}",0.15384615384615385
+{'Coffee'},"{'Cake', 'Hot chocolate'}",0.01994648504013622
+"{'Cake', 'Hot chocolate'}",{'Coffee'},0.6833333333333333
+"{'Cake', 'Coffee'}",{'Hot chocolate'},0.14721723518850988
+"{'Hot chocolate', 'Coffee'}",{'Cake'},0.26031746031746034
+{'Cake'},"{'Coffee', 'Tea'}",0.14345549738219895
+{'Tea'},"{'Cake', 'Coffee'}",0.10482019892884469
+{'Coffee'},"{'Cake', 'Tea'}",0.03332522500608125
+"{'Cake', 'Tea'}",{'Coffee'},0.5330739299610895
+"{'Cake', 'Coffee'}",{'Tea'},0.2459605026929982
+"{'Coffee', 'Tea'}",{'Cake'},0.22948073701842547
+{'Cake'},"{'Coffee', 'Cookies'}",0.05445026178010471
+{'Cookies'},"{'Cake', 'Coffee'}",0.10196078431372549
+{'Coffee'},"{'Cake', 'Cookies'}",0.012648990513257114
+"{'Cake', 'Cookies'}",{'Coffee'},0.6341463414634146
+"{'Cake', 'Coffee'}",{'Cookies'},0.0933572710951526
+"{'Coffee', 'Cookies'}",{'Cake'},0.18055555555555555
+{'Cake'},"{'Coffee', 'Sandwich'}",0.0712041884816754
+{'Coffee'},"{'Cake', 'Sandwich'}",0.016540987594259305
+{'Sandwich'},"{'Cake', 'Coffee'}",0.10429447852760736
+"{'Cake', 'Coffee'}",{'Sandwich'},0.12208258527827648
+"{'Cake', 'Sandwich'}",{'Coffee'},0.7472527472527473
+"{'Coffee', 'Sandwich'}",{'Cake'},0.17302798982188294
+{'Cake'},"{'Coffee', 'Juice'}",0.048167539267015703
+{'Coffee'},"{'Cake', 'Juice'}",0.011189491607881293
+{'Juice'},"{'Cake', 'Coffee'}",0.12777777777777777
+"{'Cake', 'Coffee'}",{'Juice'},0.08258527827648116
+"{'Cake', 'Juice'}",{'Coffee'},0.6301369863013698
+"{'Coffee', 'Juice'}",{'Cake'},0.2072072072072072
+{'Cake'},"{'Tea', 'Coffee'}",0.14345549738219895
+{'Coffee'},"{'Cake', 'Tea'}",0.03332522500608125
+{'Tea'},"{'Cake', 'Coffee'}",0.10482019892884469
+"{'Cake', 'Coffee'}",{'Tea'},0.2459605026929982
+"{'Cake', 'Tea'}",{'Coffee'},0.5330739299610895
+"{'Tea', 'Coffee'}",{'Cake'},0.22948073701842547
+{'Cake'},"{'Cookies', 'Coffee'}",0.05445026178010471
+{'Coffee'},"{'Cake', 'Cookies'}",0.012648990513257114
+{'Cookies'},"{'Cake', 'Coffee'}",0.10196078431372549
+"{'Cake', 'Coffee'}",{'Cookies'},0.0933572710951526
+"{'Cake', 'Cookies'}",{'Coffee'},0.6341463414634146
+"{'Cookies', 'Coffee'}",{'Cake'},0.18055555555555555
+{'Tea'},"{'Muffin', 'Coffee'}",0.032134659525631215
+{'Muffin'},"{'Coffee', 'Tea'}",0.116991643454039
+{'Coffee'},"{'Muffin', 'Tea'}",0.010216492337630747
+"{'Muffin', 'Tea'}",{'Coffee'},0.56
+"{'Coffee', 'Tea'}",{'Muffin'},0.07035175879396985
+"{'Muffin', 'Coffee'}",{'Tea'},0.2079207920792079
+{'Hot chocolate'},"{'Cake', 'Coffee'}",0.15384615384615385
+{'Coffee'},"{'Hot chocolate', 'Cake'}",0.01994648504013622
+{'Cake'},"{'Hot chocolate', 'Coffee'}",0.08586387434554973
+"{'Hot chocolate', 'Coffee'}",{'Cake'},0.26031746031746034
+"{'Hot chocolate', 'Cake'}",{'Coffee'},0.6833333333333333
+"{'Cake', 'Coffee'}",{'Hot chocolate'},0.14721723518850988
+{'Hot chocolate'},"{'Coffee', 'Tea'}",0.08630393996247655
+{'Tea'},"{'Hot chocolate', 'Coffee'}",0.03519510328997705
+{'Coffee'},"{'Hot chocolate', 'Tea'}",0.011189491607881293
+"{'Hot chocolate', 'Tea'}",{'Coffee'},0.46938775510204084
+"{'Hot chocolate', 'Coffee'}",{'Tea'},0.14603174603174604
+"{'Coffee', 'Tea'}",{'Hot chocolate'},0.07705192629815745
+{'Hot chocolate'},"{'Coffee', 'Cookies'}",0.075046904315197
+{'Cookies'},"{'Hot chocolate', 'Coffee'}",0.0784313725490196
+{'Coffee'},"{'Hot chocolate', 'Cookies'}",0.009729992702505474
+"{'Hot chocolate', 'Cookies'}",{'Coffee'},0.625
+"{'Hot chocolate', 'Coffee'}",{'Cookies'},0.12698412698412698
+"{'Coffee', 'Cookies'}",{'Hot chocolate'},0.1388888888888889
+{'Hot chocolate'},"{'Pastry', 'Coffee'}",0.08818011257035648
+{'Pastry'},"{'Hot chocolate', 'Coffee'}",0.05919395465994962
+{'Coffee'},"{'Hot chocolate', 'Pastry'}",0.011432741425443932
+"{'Hot chocolate', 'Pastry'}",{'Coffee'},0.7580645161290323
+"{'Hot chocolate', 'Coffee'}",{'Pastry'},0.1492063492063492
+"{'Pastry', 'Coffee'}",{'Hot chocolate'},0.0975103734439834
+{'Tea'},"{'Coffee', 'Cookies'}",0.04361132364192808
+{'Cookies'},"{'Coffee', 'Tea'}",0.11176470588235295
+{'Coffee'},"{'Cookies', 'Tea'}",0.013865239601070299
+"{'Cookies', 'Tea'}",{'Coffee'},0.5181818181818182
+"{'Coffee', 'Tea'}",{'Cookies'},0.09547738693467336
+"{'Coffee', 'Cookies'}",{'Tea'},0.19791666666666666
+{'Toast'},"{'Coffee', 'Tea'}",0.16013071895424835
+{'Tea'},"{'Toast', 'Coffee'}",0.03749043611323642
+{'Coffee'},"{'Toast', 'Tea'}",0.011919241060569205
+"{'Toast', 'Tea'}",{'Coffee'},0.6533333333333333
+"{'Toast', 'Coffee'}",{'Tea'},0.21397379912663755
+"{'Coffee', 'Tea'}",{'Toast'},0.08207705192629816
+{'Tea'},"{'Coffee', 'Alfajores'}",0.03749043611323642
+{'Alfajores'},"{'Coffee', 'Tea'}",0.14454277286135694
+{'Coffee'},"{'Alfajores', 'Tea'}",0.011919241060569205
+"{'Alfajores', 'Tea'}",{'Coffee'},0.6363636363636364
+"{'Coffee', 'Tea'}",{'Alfajores'},0.08207705192629816
+"{'Coffee', 'Alfajores'}",{'Tea'},0.2413793103448276
+{'Tea'},"{'Coffee', 'Sandwich'}",0.06273909716908951
+{'Coffee'},"{'Tea', 'Sandwich'}",0.01994648504013622
+{'Sandwich'},"{'Coffee', 'Tea'}",0.12576687116564417
+"{'Coffee', 'Tea'}",{'Sandwich'},0.1373534338358459
+"{'Tea', 'Sandwich'}",{'Coffee'},0.5222929936305732
+"{'Coffee', 'Sandwich'}",{'Tea'},0.20865139949109415
+{'Tea'},"{'Coffee', 'Juice'}",0.032134659525631215
+{'Coffee'},"{'Tea', 'Juice'}",0.010216492337630747
+{'Juice'},"{'Coffee', 'Tea'}",0.11666666666666667
+"{'Coffee', 'Tea'}",{'Juice'},0.07035175879396985
+"{'Tea', 'Juice'}",{'Coffee'},0.49411764705882355
+"{'Coffee', 'Juice'}",{'Tea'},0.1891891891891892
+{'Pastry'},"{'Coffee', 'Tea'}",0.08564231738035265
+{'Tea'},"{'Pastry', 'Coffee'}",0.05202754399387911
+{'Coffee'},"{'Pastry', 'Tea'}",0.016540987594259305
+"{'Pastry', 'Tea'}",{'Coffee'},0.6017699115044248
+"{'Pastry', 'Coffee'}",{'Tea'},0.14107883817427386
+"{'Coffee', 'Tea'}",{'Pastry'},0.11390284757118928
+{'Medialuna'},"{'Coffee', 'Tea'}",0.10369068541300527
+{'Tea'},"{'Medialuna', 'Coffee'}",0.045141545524101
+{'Coffee'},"{'Medialuna', 'Tea'}",0.014351739236195572
+"{'Medialuna', 'Tea'}",{'Coffee'},0.6082474226804123
+"{'Medialuna', 'Coffee'}",{'Tea'},0.16526610644257703
+"{'Coffee', 'Tea'}",{'Medialuna'},0.09882747068676717
+{'Scone'},"{'Coffee', 'Tea'}",0.1550632911392405
+{'Tea'},"{'Scone', 'Coffee'}",0.03749043611323642
+{'Coffee'},"{'Scone', 'Tea'}",0.011919241060569205
+"{'Scone', 'Tea'}",{'Coffee'},0.5568181818181818
+"{'Scone', 'Coffee'}",{'Tea'},0.2620320855614973
+"{'Coffee', 'Tea'}",{'Scone'},0.08207705192629816
+{'Cookies'},"{'Coffee', 'Juice'}",0.09019607843137255
+{'Coffee'},"{'Cookies', 'Juice'}",0.011189491607881293
+{'Juice'},"{'Coffee', 'Cookies'}",0.12777777777777777
+"{'Coffee', 'Cookies'}",{'Juice'},0.1597222222222222
+"{'Cookies', 'Juice'}",{'Coffee'},0.6865671641791045
+"{'Coffee', 'Juice'}",{'Cookies'},0.2072072072072072
+{'Bread'},"{'Coffee', 'Sandwich'}",0.032974661575841724
+{'Coffee'},"{'Sandwich', 'Bread'}",0.0231087326684505
+{'Sandwich'},"{'Coffee', 'Bread'}",0.14570552147239263
+"{'Coffee', 'Bread'}",{'Sandwich'},0.08788159111933395
+"{'Sandwich', 'Bread'}",{'Coffee'},0.5
+"{'Coffee', 'Sandwich'}",{'Bread'},0.24173027989821882
+{'Coffee'},"{'Soup', 'Sandwich'}",0.012405740695694478
+{'Soup'},"{'Coffee', 'Sandwich'}",0.16451612903225807
+{'Sandwich'},"{'Coffee', 'Soup'}",0.07822085889570553
+"{'Coffee', 'Soup'}",{'Sandwich'},0.30177514792899407
+"{'Coffee', 'Sandwich'}",{'Soup'},0.1297709923664122
+"{'Soup', 'Sandwich'}",{'Coffee'},0.7183098591549296
+{'Bread'},"{'Coffee', 'Juice'}",0.0194376952447067
+{'Coffee'},"{'Juice', 'Bread'}",0.013621989783507663
+{'Juice'},"{'Coffee', 'Bread'}",0.15555555555555556
+"{'Coffee', 'Bread'}",{'Juice'},0.05180388529139685
+"{'Juice', 'Bread'}",{'Coffee'},0.5714285714285714
+"{'Coffee', 'Juice'}",{'Bread'},0.25225225225225223
+{'Pastry'},"{'Hot chocolate', 'Coffee'}",0.05919395465994962
+{'Hot chocolate'},"{'Pastry', 'Coffee'}",0.08818011257035648
+{'Coffee'},"{'Pastry', 'Hot chocolate'}",0.011432741425443932
+"{'Pastry', 'Hot chocolate'}",{'Coffee'},0.7580645161290323
+"{'Pastry', 'Coffee'}",{'Hot chocolate'},0.0975103734439834
+"{'Hot chocolate', 'Coffee'}",{'Pastry'},0.1492063492063492
+{'Pastry'},"{'Medialuna', 'Coffee'}",0.07682619647355164
+{'Medialuna'},"{'Pastry', 'Coffee'}",0.10720562390158173
+{'Coffee'},"{'Pastry', 'Medialuna'}",0.014838238871320847
+"{'Pastry', 'Medialuna'}",{'Coffee'},0.61
+"{'Pastry', 'Coffee'}",{'Medialuna'},0.12655601659751037
+"{'Medialuna', 'Coffee'}",{'Pastry'},0.17086834733893558
+{'Tea'},"{'Medialuna', 'Coffee'}",0.045141545524101
+{'Medialuna'},"{'Coffee', 'Tea'}",0.10369068541300527
+{'Coffee'},"{'Medialuna', 'Tea'}",0.014351739236195572
+"{'Medialuna', 'Tea'}",{'Coffee'},0.6082474226804123
+"{'Coffee', 'Tea'}",{'Medialuna'},0.09882747068676717
+"{'Medialuna', 'Coffee'}",{'Tea'},0.16526610644257703
+{'Muffin'},"{'Coffee', 'Tea'}",0.116991643454039
+{'Tea'},"{'Muffin', 'Coffee'}",0.032134659525631215
+{'Coffee'},"{'Muffin', 'Tea'}",0.010216492337630747
+"{'Muffin', 'Tea'}",{'Coffee'},0.56
+"{'Muffin', 'Coffee'}",{'Tea'},0.2079207920792079
+"{'Coffee', 'Tea'}",{'Muffin'},0.07035175879396985
+{'Hot chocolate'},"{'Tea', 'Coffee'}",0.08630393996247655
+{'Coffee'},"{'Hot chocolate', 'Tea'}",0.011189491607881293
+{'Tea'},"{'Hot chocolate', 'Coffee'}",0.03519510328997705
+"{'Hot chocolate', 'Coffee'}",{'Tea'},0.14603174603174604
+"{'Hot chocolate', 'Tea'}",{'Coffee'},0.46938775510204084
+"{'Tea', 'Coffee'}",{'Hot chocolate'},0.07705192629815745
+{'Hot chocolate'},"{'Cookies', 'Coffee'}",0.075046904315197
+{'Coffee'},"{'Hot chocolate', 'Cookies'}",0.009729992702505474
+{'Cookies'},"{'Hot chocolate', 'Coffee'}",0.0784313725490196
+"{'Hot chocolate', 'Coffee'}",{'Cookies'},0.12698412698412698
+"{'Hot chocolate', 'Cookies'}",{'Coffee'},0.625
+"{'Cookies', 'Coffee'}",{'Hot chocolate'},0.1388888888888889
+{'Coffee'},"{'Muffin', 'Tea'}",0.010216492337630747
+{'Tea'},"{'Muffin', 'Coffee'}",0.032134659525631215
+{'Muffin'},"{'Tea', 'Coffee'}",0.116991643454039
+"{'Tea', 'Coffee'}",{'Muffin'},0.07035175879396985
+"{'Muffin', 'Coffee'}",{'Tea'},0.2079207920792079
+"{'Muffin', 'Tea'}",{'Coffee'},0.56
+{'Cookies'},"{'Tea', 'Coffee'}",0.11176470588235295
+{'Coffee'},"{'Tea', 'Cookies'}",0.013865239601070299
+{'Tea'},"{'Coffee', 'Cookies'}",0.04361132364192808
+"{'Coffee', 'Cookies'}",{'Tea'},0.19791666666666666
+"{'Tea', 'Cookies'}",{'Coffee'},0.5181818181818182
+"{'Tea', 'Coffee'}",{'Cookies'},0.09547738693467336
+{'Toast'},"{'Tea', 'Coffee'}",0.16013071895424835
+{'Coffee'},"{'Toast', 'Tea'}",0.011919241060569205
+{'Tea'},"{'Toast', 'Coffee'}",0.03749043611323642
+"{'Toast', 'Coffee'}",{'Tea'},0.21397379912663755
+"{'Toast', 'Tea'}",{'Coffee'},0.6533333333333333
+"{'Tea', 'Coffee'}",{'Toast'},0.08207705192629816
+{'Alfajores'},"{'Tea', 'Coffee'}",0.14454277286135694
+{'Coffee'},"{'Tea', 'Alfajores'}",0.011919241060569205
+{'Tea'},"{'Coffee', 'Alfajores'}",0.03749043611323642
+"{'Coffee', 'Alfajores'}",{'Tea'},0.2413793103448276
+"{'Tea', 'Alfajores'}",{'Coffee'},0.6363636363636364
+"{'Tea', 'Coffee'}",{'Alfajores'},0.08207705192629816
+{'Coffee'},"{'Tea', 'Sandwich'}",0.01994648504013622
+{'Tea'},"{'Coffee', 'Sandwich'}",0.06273909716908951
+{'Sandwich'},"{'Tea', 'Coffee'}",0.12576687116564417
+"{'Tea', 'Coffee'}",{'Sandwich'},0.1373534338358459
+"{'Coffee', 'Sandwich'}",{'Tea'},0.20865139949109415
+"{'Tea', 'Sandwich'}",{'Coffee'},0.5222929936305732
+{'Coffee'},"{'Tea', 'Juice'}",0.010216492337630747
+{'Tea'},"{'Coffee', 'Juice'}",0.032134659525631215
+{'Juice'},"{'Tea', 'Coffee'}",0.11666666666666667
+"{'Tea', 'Coffee'}",{'Juice'},0.07035175879396985
+"{'Coffee', 'Juice'}",{'Tea'},0.1891891891891892
+"{'Tea', 'Juice'}",{'Coffee'},0.49411764705882355
+{'Pastry'},"{'Tea', 'Coffee'}",0.08564231738035265
+{'Coffee'},"{'Pastry', 'Tea'}",0.016540987594259305
+{'Tea'},"{'Pastry', 'Coffee'}",0.05202754399387911
+"{'Pastry', 'Coffee'}",{'Tea'},0.14107883817427386
+"{'Pastry', 'Tea'}",{'Coffee'},0.6017699115044248
+"{'Tea', 'Coffee'}",{'Pastry'},0.11390284757118928
+{'Medialuna'},"{'Tea', 'Coffee'}",0.10369068541300527
+{'Coffee'},"{'Medialuna', 'Tea'}",0.014351739236195572
+{'Tea'},"{'Medialuna', 'Coffee'}",0.045141545524101
+"{'Medialuna', 'Coffee'}",{'Tea'},0.16526610644257703
+"{'Medialuna', 'Tea'}",{'Coffee'},0.6082474226804123
+"{'Tea', 'Coffee'}",{'Medialuna'},0.09882747068676717
+{'Scone'},"{'Tea', 'Coffee'}",0.1550632911392405
+{'Coffee'},"{'Scone', 'Tea'}",0.011919241060569205
+{'Tea'},"{'Scone', 'Coffee'}",0.03749043611323642
+"{'Scone', 'Coffee'}",{'Tea'},0.2620320855614973
+"{'Scone', 'Tea'}",{'Coffee'},0.5568181818181818
+"{'Tea', 'Coffee'}",{'Scone'},0.08207705192629816
+{'Bread'},"{'Tea', 'Sandwich'}",0.014578271433530025
+{'Tea'},"{'Sandwich', 'Bread'}",0.032134659525631215
+{'Sandwich'},"{'Tea', 'Bread'}",0.06441717791411043
+"{'Tea', 'Bread'}",{'Sandwich'},0.11666666666666667
+"{'Sandwich', 'Bread'}",{'Tea'},0.22105263157894736
+"{'Tea', 'Sandwich'}",{'Bread'},0.267515923566879
+{'Tea'},"{'Cookies', 'Coffee'}",0.04361132364192808
+{'Coffee'},"{'Cookies', 'Tea'}",0.013865239601070299
+{'Cookies'},"{'Coffee', 'Tea'}",0.11176470588235295
+"{'Coffee', 'Tea'}",{'Cookies'},0.09547738693467336
+"{'Cookies', 'Tea'}",{'Coffee'},0.5181818181818182
+"{'Cookies', 'Coffee'}",{'Tea'},0.19791666666666666
+{'Coffee'},"{'Cookies', 'Juice'}",0.011189491607881293
+{'Cookies'},"{'Coffee', 'Juice'}",0.09019607843137255
+{'Juice'},"{'Cookies', 'Coffee'}",0.12777777777777777
+"{'Cookies', 'Coffee'}",{'Juice'},0.1597222222222222
+"{'Coffee', 'Juice'}",{'Cookies'},0.2072072072072072
+"{'Cookies', 'Juice'}",{'Coffee'},0.6865671641791045
+{'Tea'},"{'Alfajores', 'Coffee'}",0.03749043611323642
+{'Coffee'},"{'Alfajores', 'Tea'}",0.011919241060569205
+{'Alfajores'},"{'Coffee', 'Tea'}",0.14454277286135694
+"{'Coffee', 'Tea'}",{'Alfajores'},0.08207705192629816
+"{'Alfajores', 'Tea'}",{'Coffee'},0.6363636363636364
+"{'Alfajores', 'Coffee'}",{'Tea'},0.2413793103448276
+{'Coffee'},"{'Sandwich', 'Bread'}",0.0231087326684505
+{'Bread'},"{'Coffee', 'Sandwich'}",0.032974661575841724
+{'Sandwich'},"{'Coffee', 'Bread'}",0.14570552147239263
+"{'Coffee', 'Bread'}",{'Sandwich'},0.08788159111933395
+"{'Coffee', 'Sandwich'}",{'Bread'},0.24173027989821882
+"{'Sandwich', 'Bread'}",{'Coffee'},0.5
+{'Tea'},"{'Sandwich', 'Bread'}",0.032134659525631215
+{'Bread'},"{'Tea', 'Sandwich'}",0.014578271433530025
+{'Sandwich'},"{'Tea', 'Bread'}",0.06441717791411043
+"{'Tea', 'Bread'}",{'Sandwich'},0.11666666666666667
+"{'Tea', 'Sandwich'}",{'Bread'},0.267515923566879
+"{'Sandwich', 'Bread'}",{'Tea'},0.22105263157894736
+{'Coffee'},"{'Juice', 'Bread'}",0.013621989783507663
+{'Bread'},"{'Coffee', 'Juice'}",0.0194376952447067
+{'Juice'},"{'Coffee', 'Bread'}",0.15555555555555556
+"{'Coffee', 'Bread'}",{'Juice'},0.05180388529139685
+"{'Coffee', 'Juice'}",{'Bread'},0.25225225225225223
+"{'Juice', 'Bread'}",{'Coffee'},0.5714285714285714

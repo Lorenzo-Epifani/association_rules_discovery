@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./env"
-    ],
-    "git.ignoreLimitWarning": true
-}

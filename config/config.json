@@ -1,0 +1,8 @@
+{
+    "i_name":"dataset.csv",
+    "o_name":"out.csv",
+    "freq_th":0.005,
+    "conf_th":0.7,
+    "auto":false,
+    "passes":2
+}

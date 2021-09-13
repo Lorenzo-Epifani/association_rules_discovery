@@ -1,0 +1,13 @@
+if_a,then_b,confidence
+{'Pastry'},"{'Coffee', 'Bread'}",0.20780856423173805
+{'Coffee'},"{'Pastry', 'Bread'}",0.04013621989783508
+{'Bread'},"{'Pastry', 'Coffee'}",0.0572717806317251
+"{'Pastry', 'Coffee'}",{'Bread'},0.34232365145228216
+"{'Pastry', 'Bread'}",{'Coffee'},0.5188679245283019
+"{'Coffee', 'Bread'}",{'Pastry'},0.15263644773358
+{'Coffee'},"{'Tea', 'Bread'}",0.03989297008027244
+{'Tea'},"{'Coffee', 'Bread'}",0.12547819433817903
+{'Bread'},"{'Coffee', 'Tea'}",0.05692467893092676
+"{'Coffee', 'Tea'}",{'Bread'},0.2747068676716918
+"{'Coffee', 'Bread'}",{'Tea'},0.1517113783533765
+"{'Tea', 'Bread'}",{'Coffee'},0.45555555555555555
